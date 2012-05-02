@@ -11,7 +11,7 @@ except ImportError:
 
 
 def my_setattr(ins, x):
-    ins._x = x
+    ins._x = x + 1
 
 
 def my_getattr(ins):
